@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url style/index.scss public/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start":"npm run css-watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marie-Bewiwi/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marie-Bewiwi/resume/issues"
+  },
+  "homepage": "https://github.com/Marie-Bewiwi/resume#readme",
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  }
+}
